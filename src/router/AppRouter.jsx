@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import MainLayout from '../templates/MainLayout';
 import EmptyLayout from '../templates/EmptyLayout';
 import Catalog from '../pages/Catalog/Catalog.jsx';
@@ -11,6 +11,7 @@ import Category from "../pages/Categories/Category.jsx";
 import FavoriteList from "../pages/FavoriteList/FavoriteList.jsx";
 import ScrollToTop from "../components/ScrollToTop.jsx";
 import Search from "../pages/Search/Search.jsx";
+import NeedConsultation from "../pages/Consultation/NeedConsultation.jsx";
 
 const AppRouter = () => {
     return (
@@ -27,6 +28,7 @@ const AppRouter = () => {
                     <Route path="/delivery" element={<DeliveryAndPayment />} />
                     <Route path="/contacts" element={<Contacts />} />
                     <Route path="/favoriteList" element={<FavoriteList />} />
+                    <Route path="/needConsultation" element={<NeedConsultation />} />
                 </Route>
 
                 <Route element={<EmptyLayout />}>

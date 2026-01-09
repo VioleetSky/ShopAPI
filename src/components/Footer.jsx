@@ -1,7 +1,7 @@
 import ApiIcon from '@mui/icons-material/Api';
 import { Box, Divider, Typography, Button} from "@mui/material";
 import { useNavigate} from "react-router-dom";
-import FormForConsultation from "./FormForConsultation.jsx";
+import FormForConsultation from "../pages/Consultation/FormForConsultation.jsx";
 
 export default function Footer(){
 const navigate = useNavigate();

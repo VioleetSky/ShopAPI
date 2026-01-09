@@ -63,7 +63,7 @@ export default function CardProductForCatalog({product}) {
                 display: "flex",
                 justifyContent: "center",
                 flexDirection: "column",
-                p: "10px",
+                px: "10px",
                 borderRadius: "16px"
             }}>
                 <Box onClick={() => handleClickProduct()} sx={{cursor: "pointer"}}>
