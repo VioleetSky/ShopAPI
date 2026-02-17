@@ -1,16 +1,17 @@
-# React + Vite
+This project is a modern online store website, developed using HTML, CSS, JavaScript and the React library. Redux and Redux Toolkit are used to manage the application state, which provides a convenient and scalable data management architecture.
+The interface is built using Material UI (MUI), which allows you to create an adaptive, modern and convenient design. The site is fully responsive and displays correctly on different devices.
+Product data is obtained from an external API, which allows you to:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+dynamically display a list of products
+implement a page for a single product
+work with the cart
+update the state without reloading the page.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Technologies used:
+HTML5 - semantic page markup
+CSS3 - styling and responsiveness
+JavaScript (ES6+) - application logic
+Redux - centralized state management
+Redux Toolkit - simplified work with Redux
+Material UI (MUI) - ready-made UI components
+REST API - receiving and processing product data
